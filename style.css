@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --swiper-nav: #62696e;
+    --swiper-color: black;
+    --menu-container-color: white;
+    --exp-container-color: black;
+    --menu-container-font: font-family: 'Bebas Neue', cursive;
+    --fonts : 60px;
+    --borders-menu: 1px solid black;
+}
+.header-top{
+             background-color: var(--swiper-nav);
+             padding: 20px 0;
+             display: flex;
+             justify-content: right;
+}
+.menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    color: var(--swiper-color);
+    font-family: 'Bebas Neue', cursive;
+}    
+
+.container_sobre_mi {
+display: flex;
+justify-content: Left;
+color: var(--menu-container-color);
+padding: 300px 0;
+background-image: url('image/fondo-sobre-mi.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Bebas Neue', cursive;
+}
+.container_experiencia , .container_estudios1 {
+    display: flex;
+    justify-content: center;
+    color: var(--exp-container-color);
+    padding: 300px 0;
+    font-family: 'Bebas Neue', cursive;
+    border: 1px solid black;
+    
+    }
+.container_contacto {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    position: relative;
+    }
+  
+    
