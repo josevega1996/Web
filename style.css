@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 :root{
-    --swiper-nav: #62696e;
-    --swiper-color: black;
-    --menu-container-color: white;
-    --exp-container-color: black;
-    --menu-container-font: font-family: 'Bebas Neue', cursive;
-    --fonts : 60px;
-    --borders-menu: 1px solid black;
+    --swiper-nav: white;
+    --swiper-color: black;;
 }
 .header-top{
              background-color: var(--swiper-nav);
              padding: 20px 0;
              display: flex;
              justify-content: right;
+}
+header nav a {
+    color: #4FBDBA;
+    text-decoration: none;
 }
 .menu {
     display: flex;
@@ -21,31 +22,82 @@
     color: var(--swiper-color);
     font-family: 'Bebas Neue', cursive;
 }    
+.container_preview , .container_sobre_mi  , .container_experiencia , .container_estudios {
+display: flex ;
+/* con este padding amplio el alto del primer div*/
+padding: 19rem;
 
-.container_sobre_mi {
-display: flex;
-justify-content: Left;
-color: var(--menu-container-color);
-padding: 300px 0;
-background-image: url('image/fondo-sobre-mi.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-font-family: 'Bebas Neue', cursive;
 }
-.container_experiencia , .container_estudios1 {
-    display: flex;
-    justify-content: center;
-    color: var(--exp-container-color);
-    padding: 300px 0;
-    font-family: 'Bebas Neue', cursive;
-    border: 1px solid black;
-    
-    }
+.grid_container{
+display: grid;
+width: 100%;
+grid-template-columns: 50% 50%;
+gap: 10em;
+}
+
+
+section div h1{
+    color: #072227;
+     /* Ajusto la posicion del texto con rem (posicion relativas)*/ 
+    margin-top: -4rem;
+    padding-right: 4em;
+    position: absolute; 
+    font-family: 'Viga', sans-serif;
+    font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+    font-size: 35px;
+}
+#sobre_mi p {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    font-size: 20px;
+}
+section div h1 span{
+    background-color: #4FBDBA;
+
+}
+section div p a{
+    background-color: #4FBDBA;
+    border-radius: 10px;
+    margin-top: 5rem;
+    width: 85%;
+    padding: 1rem;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Viga', sans-serif;
+
+}
+
+section div p a:hover{
+    color: #fff;
+}
+
+
+section div h2{
+    color: #072227;
+     /* Ajusto la posicion del texto con rem (posicion relativas)*/  
+    font-family: 'Viga', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+    font-size: 20px;
+}
+section div h2 span{
+    color: #072227;
+     /* Ajusto la posicion del texto con rem (posicion relativas)*/  
+    font-family: 'Raleway', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+    font-size: 30px;
+}
+
 .container_contacto {
     display: flex;
     border: 1px solid black;
     justify-content: center;
     position: relative;
+    align-items:  center;
+	flex-direction: column;
     }
-  
-    
