@@ -5,12 +5,27 @@
     --swiper-nav: white;
     --swiper-color: black;;
 }
-.header-top{
-             background-color: var(--swiper-nav);
-             padding: 20px 0;
-             display: flex;
-             justify-content: right;
+
+@media (max-width :600px) {
+    .menu {
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+        color: var(--swiper-color);
+        font-family: 'Bebas Neue', cursive;
+        flex-direction: column;
+    } 
+
+    
 }
+
+.header-top{
+    background-color: var(--swiper-nav);
+    padding: 20px 0;
+    display: flex;
+    justify-content: right;
+}
+
 header nav a {
     color: #4FBDBA;
     text-decoration: none;
@@ -39,7 +54,7 @@ gap: 10em;
 section div h1{
     color: #072227;
      /* Ajusto la posicion del texto con rem (posicion relativas)*/ 
-    margin-top: -4rem;
+    margin-top: -8rem;
     padding-right: 4em;
     position: absolute; 
     font-family: 'Viga', sans-serif;
@@ -95,7 +110,6 @@ section div h2 span{
 
 .container_contacto {
     display: flex;
-    border: 1px solid black;
     justify-content: center;
     position: relative;
     align-items:  center;
