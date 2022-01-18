@@ -5,108 +5,140 @@
     --swiper-nav: white;
     --swiper-color: black;;
 }
+*{
+    margin: 0;
+    padding: 0;
 
-@media (max-width :600px) {
-    .menu {
-        display: flex;
-        width: 40%;
-        justify-content: space-around;
-        color: var(--swiper-color);
-        font-family: 'Bebas Neue', cursive;
-        flex-direction: column;
-    } 
-
-    
 }
+@media (max-width: 480px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+/* ----------------- HEADER ---------------------*/
 
 .header-top{
     background-color: var(--swiper-nav);
-    padding: 20px 0;
     display: flex;
     justify-content: right;
-}
-
-header nav a {
-    color: #4FBDBA;
-    text-decoration: none;
+    border-bottom: 1px solid var(--swiper-color);
+    padding: 1rem 0;
 }
 .menu {
     display: flex;
-    width: 40%;
-    justify-content: space-around;
     color: var(--swiper-color);
     font-family: 'Bebas Neue', cursive;
-}    
-.container_preview , .container_sobre_mi  , .container_experiencia , .container_estudios {
-display: flex ;
-/* con este padding amplio el alto del primer div*/
-padding: 19rem;
-
 }
-.grid_container{
-display: grid;
-width: 100%;
-grid-template-columns: 50% 50%;
-gap: 10em;
+header nav a {
+    color: #4FBDBA;
+    text-decoration: none;
+    padding: 2rem;
 }
 
+/* ----------------------- FIN DEL HEADER --------------- */
 
-section div h1{
+/* ----------------------- SECTION PREVIEW --------------- */
+section div h1 {
     color: #072227;
-     /* Ajusto la posicion del texto con rem (posicion relativas)*/ 
-    margin-top: -8rem;
-    padding-right: 4em;
-    position: absolute; 
     font-family: 'Viga', sans-serif;
     font-weight: bold;
-	text-align: left;
 	text-transform: uppercase;
     font-size: 35px;
+    padding: 6em 2em 1em 4em ;
+    
+}
+section div a{
+    color: black;
+    font-size: 27px;
+    font-family: 'Viga', sans-serif;
+    margin: 1em 1em 3em 5em ;
+    border: 1px solid black;
+    background-color: #4FBDBA;
+    border-radius: 11px;
+}
+
+section div h1 span{
+    background-color: #4FBDBA;
+}
+
+section div h1 span:hover{
+    /* Esto necesita  animatio-name y animation-duration */
+    animation: changeColor 4s;
+}
+@keyframes changeColor {
+    from {
+        background-color: #4FBDBA;
+    }
+    to{
+        background-color: #0082c8;
+    }
+}
+
+section div  a:hover{
+    color: #fff;
+}
+.circle1  {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.circle1{
+    background-color: mediumspringgreen;
+    transition: all 2s ease;
+}
+.container-circle:hover  .circle1{
+    transform: translateX(300px);
+}
+
+/* ---------------------- FIN DEL SECTION PREVIEW------*/
+
+/* ------------------- INICIO DEL SECTION SOBRE MI ---*/
+section div h3{
+    color: #072227;
+    font-family: 'Viga', sans-serif;
+    font-weight: bold;
+	text-transform: uppercase;
+    font-size: 25px;
+    margin: 15em 17em 2em 20em ;
+    
 }
 #sobre_mi p {
     text-align: center;
     font-family: 'Viga', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 1em 30em 2em 34em ;
 }
-section div h1 span{
-    background-color: #4FBDBA;
+/* ---------------------------FIN DEL PROCESO SOBRE MI-- */
+/* -----------INICIO DEL PROCESO ESTUDIOS y EXPERIENCIA--------------- */
 
-}
-section div p a{
-    background-color: #4FBDBA;
-    border-radius: 10px;
-    margin-top: 5rem;
-    width: 85%;
-    padding: 1rem;
-    display: inline-block;
-    color: black;
-    font-weight: bold;
-    font-size: 28px;
-    font-family: 'Viga', sans-serif;
-
-}
-
-section div p a:hover{
-    color: #fff;
-}
-
-
+.grid_container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 15em;
+    margin: 20em 25em 10em 20em ;
+    }
 section div h2{
+    display: flex;
+    flex-direction: column;
     color: #072227;
-     /* Ajusto la posicion del texto con rem (posicion relativas)*/  
     font-family: 'Viga', sans-serif;
-	text-align: center;
-	text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
     font-size: 20px;
-}
+    }
 section div h2 span{
     color: #072227;
-     /* Ajusto la posicion del texto con rem (posicion relativas)*/  
     font-family: 'Raleway', sans-serif;
-	text-align: center;
-	text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
     font-size: 30px;
-}
+    }   
+
+/* ---------------- FIN DEL PROCESO ESTUDIOS Y EXPERIENCIA ----*/
 
 .container_contacto {
     display: flex;
@@ -114,4 +146,4 @@ section div h2 span{
     position: relative;
     align-items:  center;
 	flex-direction: column;
-    }
+     }
