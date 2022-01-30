@@ -1,0 +1,69 @@
+/*seccion sobre mi*/
+
+.sobre_mi_container{
+    padding: 5em;
+}
+
+section {
+    div {
+        h3 {
+            color: #072227;
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 20px;
+            span{
+                color: #072227;
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.box {
+    background-color: white;
+    border-radius: 6px 6px 0 0 ;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    color: #141c3a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    color: #141c3a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.tituloEstudios{
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    flex-direction:  column;
+    font-family: 'Oswald', sans-serif;
+    color: #3E8E7E;
+}
+.icon-box  {
+    align-self: center;
+}
+
+
+.conten_Estudios{
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    flex-direction:  column;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.conten_Estudios span{
+    font-weight: 600;
+}
