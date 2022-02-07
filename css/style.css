@@ -36,6 +36,16 @@
 }
 
 /*seccion sobre mi*/
+/*mapas*/
+.box2, .box {
+  background-color: white;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  padding: 1.25rem;
+}
+
 .sobre_mi_container {
   padding: 5em;
 }
@@ -54,24 +64,6 @@ section div h3 span {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bold;
-}
-
-.box {
-  background-color: white;
-  border-radius: 6px 6px 0 0;
-  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
-  color: #141c3a;
-  display: block;
-  padding: 1.25rem;
-}
-
-.box2 {
-  background-color: white;
-  border-radius: 0 0 6px 6px;
-  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
-  color: #141c3a;
-  display: block;
-  padding: 1.25rem;
 }
 
 .tituloEstudios {
@@ -118,6 +110,16 @@ section div h3 span {
 .container-footer {
   background-color: #f1f1f1;
   margin: 2rem 0 0 0;
+}
+
+/*mapas*/
+.box, .box2 {
+  background-color: white;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  padding: 1.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */
