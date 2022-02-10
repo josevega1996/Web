@@ -1,0 +1,46 @@
+@import 'mapas';
+@import 'extends';
+
+
+.box {
+    @extend %box;
+}
+
+.box2 {
+    @extend %box2;
+}
+
+
+.tituloEstudios{
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    flex-direction:  column;
+    font-family: 'Oswald', sans-serif;
+    color: #555;
+    font-size: 22px;
+}
+
+.icon-box  {
+    align-self: center;
+    color: #70b9b0;
+}
+
+
+.conten_Estudios{
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    flex-direction:  column;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    span {
+        font-weight: 400;
+        font-size: 15px;
+        font-weight: bold;
+         
+    }
+}
+
+

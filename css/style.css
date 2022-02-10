@@ -1,43 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 /*header*/
-#home {
-  padding: 15em;
-  background-image: url("../image/home.jpg");
+.banner-image {
+  background-image: url("../image/home2.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
-#home h1 {
-  font-size: 48px;
-  font-weight: 300;
-  line-height: 56px;
+.text-home {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
   color: #fff;
-  font-family: "Oswald", sans-serif;
 }
-#home h2 {
-  color: #eee;
-  margin-bottom: 50px;
-  font-size: 20px;
-  font-weight: 300;
-  font-family: "Oswald", sans-serif;
-}
-
-.boton-ini {
-  font-weight: 400, bold;
-  font-size: 30px;
-  color: #fff;
-  border-radius: 17em;
-  letter-spacing: 1px;
-  display: inline-block;
-  font-family: "Oswald", sans-serif;
-  text-decoration: none;
-}
-.boton-ini:hover {
-  color: #3E8E7E;
+.text-home span {
+  color: #219F94;
 }
 
 /*seccion sobre mi*/
 /*mapas*/
 .box2, .box {
+  background-color: white;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box2 {
   background-color: white;
   border-radius: 6px 6px 0 0;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
@@ -91,6 +81,55 @@ section div h3 span {
   font-weight: 600;
 }
 
+/*mapas*/
+.box, .box2 {
+  background-color: white;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box2 {
+  background-color: white;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.tituloEstudios {
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  color: #555;
+  font-size: 22px;
+}
+
+.icon-box {
+  align-self: center;
+  color: #70b9b0;
+}
+
+.conten_Estudios {
+  text-align: center;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+}
+.conten_Estudios span {
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 /* CONTACTO */
 .contacto-header {
   color: #36A0FF;
@@ -114,6 +153,15 @@ section div h3 span {
 
 /*mapas*/
 .box, .box2 {
+  background-color: white;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.box2 {
   background-color: white;
   border-radius: 6px 6px 0 0;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
