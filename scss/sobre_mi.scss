@@ -25,37 +25,3 @@ section {
         }
     }
 }
-
-.box {
-    @extend %box;
-}
-
-.box2 {
-    @extend %box;
-}
-
-.tituloEstudios{
-    text-align: center;
-    font-weight: 400;
-    display: flex;
-    flex-direction:  column;
-    font-family: 'Oswald', sans-serif;
-    color: #3E8E7E;
-}
-.icon-box  {
-    align-self: center;
-}
-
-
-.conten_Estudios{
-    text-align: center;
-    font-weight: 400;
-    display: flex;
-    flex-direction:  column;
-    font-family: 'Oswald', sans-serif;
-}
-
-
-.conten_Estudios span{
-    font-weight: 600;
-}

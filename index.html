@@ -4,9 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- meta descripcion -->
-     <meta name ="description" content ="Soy Datascience, ayudo a analisis de datos para la toma de desiciones empresariales y el aumento de los ingresos
-     y mejora de los productos" >
      <!-- meta keys  -->
      <meta name="Keywords" content="Data Science, optimizacion , automatizacion ,  analisis de datos, Big data ">
 
@@ -68,13 +65,13 @@
   <section id ="sobre_mi" class="container">
       <div class="container-fluid sobre_mi_container fondo" >
           <div class="row">
-              <div class="col-md-5">
+              <div class="col">
                   <img src="image/me5.jpeg" class="rounded mx-auto d-block" alt="Foto de mi ">
               </div>
-              <div class="col-md-7">
-                  <h3> Hola, Soy Jose Luis Vega.<br> Tengo 25 años y soy Colombiano.
+              <div class="col">
+                  <h3> Hola, Soy Jose Luis Vega. Tengo 25 años y soy Colombiano.
                       Actualmente vivo en Bogota- Colombia</h3>
-                     <p style="text-align: justify;"> Sql Developer con +3 años de experiencia en el manejo de datos y explotación 
+                     <p> Sql Developer con +3 años de experiencia en el manejo de datos y explotación 
                       de estos, con amplios conocimientos en ETL, automatización de tareas, resolución de problemas. 
                       Amante de Python. Me gusta el análisis de datos y la aplicación de técnicas de Machine learning, 
                       para así dar y proponer soluciones optimas. Busco oportunidades en Data Science y Machine learning, 
@@ -84,6 +81,7 @@
 
       </div>
   </section >
+      <!-- Section de estudios -->
   <section id ="estudios">
     <div class="container mt-5 ">
       <div class="tituloEstudios" >Estudios</div>
@@ -127,6 +125,7 @@
           </svg> <span>Curso maestro de Web Scraping: Extracción de Datos de la Web </span> Udemy  (en proceso) </h3>
         </div>
     </div>
+        <!-- Container donde pongo la experiencia -->
     <div class="container mt-5 ">
       <div class="tituloEstudios" >Experiencia</div>
     </div>
@@ -153,45 +152,31 @@
       </div>  
     </div>
   </section>
+      <!-- Formulario de contacto  -->
   <section id = "contacto">
     <div class="container mt-5">
       <div class="row justify-content-center">
           <div class="col-lg-5 col-md-12">
               <div class="well well-sm">
-                  <form class="form-horizontal" method="post">
+                  <form class="form-horizontal"  id = "form">
                       <fieldset>
                           <legend class="text-center contacto-header">Si desea contactarme</legend>
                           <div class="form-group mt-1 ">
                               <span class="text-center"></span>
                               <div class="">
-                                  <input id="primernombre" name="nombre" type="text" placeholder="Primer Nombre" class="form-control">
+                                  <input id="primernombre" name="nombres" type="text" placeholder="Nombres" class="form-control">
                               </div>
-                          </div>
+                          </div>  
                           <div class="form-group mt-1">
                               <span class=" text-center "></span>
                               <div class="">
-                                  <input id="apellido" name="name" type="text" placeholder="Apellidos" class="form-control">
+                                  <input id="email" name="correo" type="text" placeholder="Correo" class="form-control" required>
                               </div>
-                          </div>
-  
-                          <div class="form-group mt-1">
-                              <span class=" text-center "></span>
-                              <div class="">
-                                  <input id="email" name="email" type="text" placeholder="Gmail" class="form-control">
-                              </div>
-                          </div>
-  
+                          </div>  
                           <div class="form-group mt-1">
                               <span class="text-center "></span>
                               <div class="">
-                                  <input id="Telefono" name="Telefono" type="text" placeholder="Telefono" class="form-control">
-                              </div>
-                          </div>
-  
-                          <div class="form-group mt-1">
-                              <span class="text-center "></span>
-                              <div class="">
-                                  <textarea class="form-control" id="message" name="message" placeholder="Contenido" rows="7"></textarea>
+                                  <textarea class="form-control" id="mensaje" name="mensaje"  rows="7"></textarea>
                               </div>
                           </div>
   
@@ -202,6 +187,7 @@
                           </div>
                       </fieldset>
                   </form>
+                  <a href="mailto:vegajoseluis322@gmail.com" id="envio">email</a>
               </div>
           </div>
       </div>
@@ -251,6 +237,10 @@
 <!-- Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Formulario de Javascript para oscurecer el navbar con scroll -->    
     <script src="/js/navbar.js" ></script>
+    <!-- Formulario de contacto para enviar el correo -->
+    <script src="/js/formulario.js" ></script>
   </body>
 </html>

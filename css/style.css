@@ -1,11 +1,18 @@
+/*Alinea los items del menu a la derecha*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+ul {
+  text-align: end;
+}
+
 /*header*/
+/*imagen de fondo*/
 .banner-image {
   background-image: url("../image/home2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
+/*Texto del home de la pagina principal*/
 .text-home {
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -18,7 +25,7 @@
 
 /*seccion sobre mi*/
 /*mapas*/
-.box2, .box {
+.box {
   background-color: white;
   border-radius: 6px 6px 0 0;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
@@ -56,33 +63,8 @@ section div h3 span {
   font-weight: bold;
 }
 
-.tituloEstudios {
-  text-align: center;
-  font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  font-family: "Oswald", sans-serif;
-  color: #3E8E7E;
-}
-
-.icon-box {
-  align-self: center;
-}
-
-.conten_Estudios {
-  text-align: center;
-  font-weight: 400;
-  display: flex;
-  flex-direction: column;
-  font-family: "Oswald", sans-serif;
-}
-
-.conten_Estudios span {
-  font-weight: 600;
-}
-
 /*mapas*/
-.box, .box2 {
+.box {
   background-color: white;
   border-radius: 6px 6px 0 0;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
@@ -146,13 +128,18 @@ section div h3 span {
   align-self: center;
 }
 
+/*deja de mostrar la etiqueta <a> donde esta el envio del correo*/
+#envio {
+  opacity: 0;
+}
+
 .container-footer {
   background-color: #f1f1f1;
   margin: 2rem 0 0 0;
 }
 
 /*mapas*/
-.box, .box2 {
+.box {
   background-color: white;
   border-radius: 6px 6px 0 0;
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;

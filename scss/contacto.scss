@@ -1,6 +1,4 @@
 /* CONTACTO */
-
-
 .contacto-header {
     color: #36A0FF;
     font-size: 27px;
@@ -14,4 +12,9 @@
 
 .form-group{
     align-self: center;
+}
+
+/*deja de mostrar la etiqueta <a> donde esta el envio del correo*/
+#envio {
+    opacity: 0;
 }

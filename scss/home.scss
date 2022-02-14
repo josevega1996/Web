@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /*header*/
+/*imagen de fondo*/
 .banner-image {
     background-image: url("../image/home2.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
-
+/*Texto del home de la pagina principal*/
 .text-home {
     font-family: 'Roboto', sans-serif;
     display: flex;
